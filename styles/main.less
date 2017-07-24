@@ -11,16 +11,25 @@ body {
 }
 .container {
     position: relative;
-    .target {
-        display: block;
-        width: 150px;
-        height: 150px;
-        visibility: hidden;
-        background: white;
-        position: absolute;
-        z-index: 9;
+    height: 100%;
+
+    .page {
+        height: 100%;
+        h1 {
+            color: white;
+        }
+        .target {
+            display: block;
+            width: 150px;
+            height: 150px;
+            visibility: hidden;
+            background: white;
+            position: absolute;
+            z-index: 9;
+        }
+        .target.target1 { background: red; }
+        .target.target2 { background: green; }
+        .target.target3 { background: blue; }
+
     }
-    .target.target1 { background: red; }
-    .target.target2 { background: green; }
-    .target.target3 { background: blue; }
 }
