@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "my cv",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.3.2",
+    "jade": "^1.11.0",
+    "run-sequence": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

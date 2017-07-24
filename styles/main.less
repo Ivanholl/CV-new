@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+
+body {
+    height: 7500px;
+    width: 100%;
+    background: url('../pics/space.jpg') 35% center no-repeat;
+}
+.container {
+    position: relative;
+    .target {
+        display: block;
+        width: 150px;
+        height: 150px;
+        visibility: hidden;
+        background: white;
+        position: absolute;
+        z-index: 9;
+    }
+    .target.target1 { background: red; }
+    .target.target2 { background: green; }
+    .target.target3 { background: blue; }
+}
